@@ -1,0 +1,183 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 2113,
+              "bottom": 2114,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,UL,0,LI,3,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 681,
+              "bottom": 700,
+              "left": 448,
+              "right": 548,
+              "width": 100,
+              "height": 19
+            },
+            "snippet": "<a href=\"/Accuplacer\">",
+            "nodeLabel": "ACCUPLACER",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 654,
+                    "bottom": 822,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 168
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Placement Testing\nSome students may be required to take the ACCUPLACER college …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,UL,3,LI,3,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 1041,
+              "bottom": 1060,
+              "left": 281,
+              "right": 476,
+              "width": 195,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:Test_Center@pueblocc.edu\">",
+            "nodeLabel": "Test_Center@pueblocc.edu",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,UL,3,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 990,
+                    "bottom": 1062,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Distance Proctoring Services for other Institutions\nPueblo Community College wi…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

@@ -1,0 +1,580 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 1801,
+              "bottom": 1802,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 552,
+              "bottom": 571,
+              "left": 171,
+              "right": 546,
+              "width": 375,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://earlylearningco.org/\" target=\"_blank\">",
+            "nodeLabel": "Colorado Early Learning and Development Guidelines",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 526,
+                    "bottom": 598,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "The early years of a child’s life — from birth to age eight — are critically im…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 616,
+              "bottom": 635,
+              "left": 140,
+              "right": 256,
+              "width": 116,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.coloradoshines.com/\" target=\"_blank\">",
+            "nodeLabel": "Colorado Shines",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 614,
+                    "bottom": 686,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Colorado Shines, the state’s quality rating and improvement system, rates Color…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 704,
+              "bottom": 723,
+              "left": 140,
+              "right": 262,
+              "width": 122,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://childcareaware.org/\" target=\"_blank\">",
+            "nodeLabel": "Child Care Aware",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 702,
+                    "bottom": 774,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Child Care Aware is the nation’s most respected hub of child care information f…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 792,
+              "bottom": 811,
+              "left": 244,
+              "right": 543,
+              "width": 299,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.coloradochildcare.com/\" target=\"_blank\">",
+            "nodeLabel": "Colorado Association of Family Child Care",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 790,
+                    "bottom": 838,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Learn how the Colorado Association of Family Child Care is dedicated to the sup…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,4,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 856,
+              "bottom": 875,
+              "left": 171,
+              "right": 460,
+              "width": 289,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://coloradoofficeofearlychildhood.force.com/oec/OEC_Families?p=Family&amp;…\" target=\"_blank\">",
+            "nodeLabel": "Colorado Child Care Assistance Program",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,4,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 854,
+                    "bottom": 902,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "The Colorado Child Care Assistance Program (CCCAP) helps families that are home…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,5,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 920,
+              "bottom": 939,
+              "left": 171,
+              "right": 384,
+              "width": 213,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.coloradokids.org/\" target=\"_blank\">",
+            "nodeLabel": "Colorado Children's Campaign",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,5,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 918,
+                    "bottom": 966,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "The Colorado Children's Campaign advocates for the development and implementati…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,6,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 984,
+              "bottom": 1027,
+              "left": 140,
+              "right": 812,
+              "width": 672,
+              "height": 43
+            },
+            "snippet": "<a href=\"http://coloradoofficeofearlychildhood.force.com/oec/OEC_Providers?p=Provid…\">",
+            "nodeLabel": "Colorado Department of Early Childhood",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,6,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 982,
+                    "bottom": 1030,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Read rules and regulations for licensed child care facilities at the Colorado D…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,7,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 1048,
+              "bottom": 1067,
+              "left": 171,
+              "right": 421,
+              "width": 250,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://cdphe.colorado.gov/CACFP\" target=\"_blank\">",
+            "nodeLabel": "Child and Adult Care Food Program",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,7,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 1046,
+                    "bottom": 1118,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "The Child and Adult Care Food Program (CACFP) is committed to improving the nut…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,8,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 1136,
+              "bottom": 1155,
+              "left": 467,
+              "right": 615,
+              "width": 148,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.afterschoolalliance.org/\">",
+            "nodeLabel": "After School Alliance",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,8,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 1134,
+                    "bottom": 1158,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 24
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Find out more about after school programs at After School Alliance."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,9,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 1176,
+              "bottom": 1195,
+              "left": 383,
+              "right": 478,
+              "width": 95,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.zerotothree.org/\">",
+            "nodeLabel": "Zero to Three",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,9,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 1174,
+                    "bottom": 1198,
+                    "left": 140,
+                    "right": 950,
+                    "width": 810,
+                    "height": 24
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Find great parent resources at the Zero to Three website."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 72,
+              "bottom": 91,
+              "left": 30,
+              "right": 236,
+              "width": 206,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

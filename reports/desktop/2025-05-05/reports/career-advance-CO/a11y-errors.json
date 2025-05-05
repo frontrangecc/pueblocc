@@ -1,0 +1,311 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,5,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 4810,
+              "bottom": 4811,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 72,
+              "bottom": 91,
+              "left": 30,
+              "right": 236,
+              "width": 206,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1883,
+              "bottom": 2567,
+              "left": 120,
+              "right": 651,
+              "width": 531,
+              "height": 684
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Education about Early Childhood Education\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Education\nEarly Childhood Education\n\nPueblo\nTracy Williams\nTracy.Williams@puebl…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 2597,
+              "bottom": 3081,
+              "left": 120,
+              "right": 651,
+              "width": 531,
+              "height": 484
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Construction Technology Mini-Certificate about Construction Technology\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Construction Technology Mini-Certificate\nConstruction Technology\n\nSouthwest\nPer…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 3111,
+              "bottom": 3707,
+              "left": 120,
+              "right": 651,
+              "width": 531,
+              "height": 596
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Fire Science Technology about Fire Science Technology\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Fire Science Technology\nFire Science Technology\n\nPueblo\nJohn Webber\nJohn.Webber…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 3737,
+              "bottom": 4197,
+              "left": 120,
+              "right": 651,
+              "width": 531,
+              "height": 460
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Nursing about Nursing\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Nursing\nNursing\n\nNursing Department\n719-549-3409\nnursing@pueblocc.edu\n\nNURSING",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1883,
+              "bottom": 2567,
+              "left": 699,
+              "right": 1230,
+              "width": 531,
+              "height": 684
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Wildland Firefighter about Wildland Fire\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Wildland Firefighter\nWildland Fire\n\nFremont\nTonya Roberts\nTonya.Roberts@puebloc…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 2597,
+              "bottom": 3081,
+              "left": 699,
+              "right": 1230,
+              "width": 531,
+              "height": 484
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Nurse Aide about Nurse Aide\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Nurse Aide\nNurse Aide\n\nPueblo\nMichelle Ohnemus\n719-549-3295\nMichelle.Ohnemus@pu…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 3111,
+              "bottom": 3707,
+              "left": 699,
+              "right": 1230,
+              "width": 531,
+              "height": 596
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Law Enforcement Academy about Law Enforcement Academy\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Law Enforcement Academy\nLaw Enforcement Academy\n\nPueblo\nLeroy Mora\nLeroy.Mora@p…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 3737,
+              "bottom": 4197,
+              "left": 699,
+              "right": 1230,
+              "width": 531,
+              "height": 460
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Elementary Teacher Education about Elementary Teacher Education\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Elementary Teacher Education\nElementary Teacher Education\n\nMolly Milusnic\n719-5…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

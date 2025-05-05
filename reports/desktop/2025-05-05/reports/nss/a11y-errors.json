@@ -1,0 +1,273 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 2532,
+              "bottom": 2533,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 72,
+              "bottom": 91,
+              "left": 30,
+              "right": 236,
+              "width": 206,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1122,
+              "bottom": 1518,
+              "left": 100,
+              "right": 450,
+              "width": 350,
+              "height": 397
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Apply Online about Apply Online\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Apply Online\nApply Online\n\nApply online anytime, anywhere. PCC is an open-acces…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1548,
+              "bottom": 1969,
+              "left": 100,
+              "right": 450,
+              "width": 350,
+              "height": 421
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Financial Aid about Financial Aid\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Financial Aid\nFinancial Aid\n\nPCC is affordable. More than 68% of our students q…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1122,
+              "bottom": 1518,
+              "left": 500,
+              "right": 850,
+              "width": 350,
+              "height": 397
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Visit Campus about Visit Campus\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Visit Campus\nVisit Campus\n\nWe have beautiful campuses. Take a tour and see for …",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1548,
+              "bottom": 1969,
+              "left": 500,
+              "right": 850,
+              "width": 350,
+              "height": 421
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"New Student Orientation about New Student Orientation\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "New Student Orientation\nNew Student Orientation\n\nAll new students are encourage…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1122,
+              "bottom": 1518,
+              "left": 900,
+              "right": 1250,
+              "width": 350,
+              "height": 397
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"New Student Checklist about New Student Checklist\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "New Student Checklist\nNew Student Checklist\n\nBecome a PCC student in a few simp…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,DIV,0,DIV",
+            "selector": "div.l--grid > div.l--grid__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 1548,
+              "bottom": 1969,
+              "left": 900,
+              "right": 1250,
+              "width": 350,
+              "height": 421
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--interior c-card js-i…\" aria-label=\"Already Accepted about Already Accepted?\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Already Accepted\nAlready Accepted?\n\nTime to dig deeper! Get details about stude…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

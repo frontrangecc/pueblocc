@@ -1,0 +1,463 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.field__item > div.paragraph > div.text-content > h4",
+            "boundingRect": {
+              "top": 1347,
+              "bottom": 1397,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 50
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Need help? Want to meet with the Career Office? Want to present on campus?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 5357,
+              "bottom": 5358,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,0,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 3550,
+              "bottom": 3569,
+              "left": 111,
+              "right": 210,
+              "width": 100,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/support-success/career-services/employer-hub\">",
+            "nodeLabel": "Employer Hub",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 3476,
+                    "bottom": 3572,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 96
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "General Information\nVisit our employer hub for general information on connectin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,1,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 3614,
+              "bottom": 3657,
+              "left": 60,
+              "right": 384,
+              "width": 324,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://app.joinhandshake.com/employer_registrations/new?_ga=2.151053885.5…\">",
+            "nodeLabel": "Create Employer Account",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,1,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 3588,
+                    "bottom": 3660,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Creating an Employer Account on Handshake\nStart by creating an employer account…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,2,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 3726,
+              "bottom": 3745,
+              "left": 134,
+              "right": 315,
+              "width": 182,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://support.joinhandshake.com/hc/en-us/articles/115011431228-Getting-S…\">",
+            "nodeLabel": "Handshake Partner Guide",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 3676,
+                    "bottom": 3748,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Partnering with Handshake\nFollow the guide on becoming a partnered employer: Ha…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,3,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 3838,
+              "bottom": 3881,
+              "left": 60,
+              "right": 321,
+              "width": 261,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://support.joinhandshake.com/hc/en-us/articles/219133057-How-to-Creat…\">",
+            "nodeLabel": "Create Company Profile",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,3,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 3764,
+                    "bottom": 3884,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 120
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Creating a Company Profile\nLearn how to create a new company profile, or search…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,4,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 3998,
+              "bottom": 4041,
+              "left": 60,
+              "right": 362,
+              "width": 302,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://app.joinhandshake.com/login?school_approval_token=XCCDn_BlbSbuu3Ai…\">",
+            "nodeLabel": "Auto-Approval Link",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,4,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 3900,
+                    "bottom": 4044,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 144
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Getting Auto-Approval:\nOnce your accounts are created and validated, use this l…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,5,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 4110,
+              "bottom": 4129,
+              "left": 60,
+              "right": 191,
+              "width": 131,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://support.joinhandshake.com/hc/en-us/articles/218693198-How-to-Post-…\">",
+            "nodeLabel": "How to Post a Job",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,OL,5,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 4060,
+                    "bottom": 4132,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Posting a Job\nLearn how to post a position in Handshake: How to Post a Job"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

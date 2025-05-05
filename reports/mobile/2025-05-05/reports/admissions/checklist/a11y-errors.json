@@ -1,0 +1,421 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.paragraph > div.text-content > div.message-box > h4",
+            "boundingRect": {
+              "top": 1250,
+              "bottom": 1270,
+              "left": 90,
+              "right": 371,
+              "width": 281,
+              "height": 20
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "NOTE:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 3941,
+              "bottom": 3942,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,0,LI,2,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 481,
+              "bottom": 500,
+              "left": 60,
+              "right": 147,
+              "width": 87,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/apply\">",
+            "nodeLabel": "Apply online",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 455,
+                    "bottom": 503,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "APPLY TO PCC\nApply online anytime from anywhere."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,1,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 545,
+              "bottom": 564,
+              "left": 152,
+              "right": 251,
+              "width": 99,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://portal.cccs.edu/pcc\">",
+            "nodeLabel": "myPCC Portal",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,1,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 519,
+                    "bottom": 687,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 168
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "GET CONNECTED\nLog in to the myPCC Portal and explore the available information …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,2,LI,6,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 825,
+              "bottom": 844,
+              "left": 281,
+              "right": 380,
+              "width": 99,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://portal.cccs.edu/pcc\">",
+            "nodeLabel": "myPCC Portal",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 703,
+                    "bottom": 871,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 168
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "SEE AN ACADEMIC ADVISOR\nNew, re-admit, and pre-health students should see an ac…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,3,LI,3,A",
+            "selector": "div.text-content > ol > li > a",
+            "boundingRect": {
+              "top": 961,
+              "bottom": 1004,
+              "left": 60,
+              "right": 380,
+              "width": 320,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://portal.cccs.edu/pcc\">",
+            "nodeLabel": "myPCC Portal",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,OL,3,LI",
+                  "selector": "div.paragraph > div.text-content > ol > li",
+                  "boundingRect": {
+                    "top": 887,
+                    "bottom": 1199,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 312
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "REGISTER FOR CLASSES AND COMPLETE YOUR ONLINE NEW STUDENT ORIENTATION (NSO)\nLog…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,P,1,A",
+            "selector": "div.text-content > div.message-box > p > a",
+            "boundingRect": {
+              "top": 1314,
+              "bottom": 1330,
+              "left": 221,
+              "right": 309,
+              "width": 88,
+              "height": 16
+            },
+            "snippet": "<a href=\"/tuition\">",
+            "nodeLabel": "Tuition & Fees",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.75:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #222222)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,P",
+                  "selector": "div.paragraph > div.text-content > div.message-box > p",
+                  "boundingRect": {
+                    "top": 1270,
+                    "bottom": 1333,
+                    "left": 90,
+                    "right": 371,
+                    "width": 281,
+                    "height": 63
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Before registering for any course, you should be aware that additional fees may…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

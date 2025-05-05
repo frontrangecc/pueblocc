@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 9542,
+              "bottom": 9543,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,UL,2,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 2565,
+              "bottom": 2584,
+              "left": 232,
+              "right": 287,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.dea.gov/drug-information/drug-policy\" target=\"_blank\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,UL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 2251,
+                    "bottom": 2635,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 384
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Penalties for federal drug trafficking convictions vary according to the quanti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,UL,2,LI,3,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 2589,
+              "bottom": 2632,
+              "left": 60,
+              "right": 377,
+              "width": 317,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://www.dea.gov/drug-information/drug-policy\" target=\"_blank\">",
+            "nodeLabel": "https://www.dea.gov/drug-information/drug-policy",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,UL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 2251,
+                    "bottom": 2635,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 384
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Penalties for federal drug trafficking convictions vary according to the quanti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,UL,0,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 2784,
+              "bottom": 2803,
+              "left": 127,
+              "right": 372,
+              "width": 245,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://leg.colorado.gov/laws/colorado-revised-statutes\" target=\"_blank\">",
+            "nodeLabel": "Colorado Revised Statutes (C.R.S.)",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 2710,
+                    "bottom": 2806,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 96
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "State laws regulating the production, dispensation, possession, and use of alco…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL,0,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 3859,
+              "bottom": 3878,
+              "left": 288,
+              "right": 343,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://library.municode.com/co\" target=\"_blank\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 3785,
+                    "bottom": 3905,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 120
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Depending on where the College is located, local ordinances may also prohibit a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL,0,LI,3,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 3883,
+              "bottom": 3902,
+              "left": 115,
+              "right": 344,
+              "width": 229,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://library.municode.com/co\">",
+            "nodeLabel": "https://library.municode.com/co",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 3785,
+                    "bottom": 3905,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 120
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Depending on where the College is located, local ordinances may also prohibit a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 4946,
+              "bottom": 4965,
+              "left": 20,
+              "right": 385,
+              "width": 365,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.niaaa.nih.gov/\" target=\"_blank\">",
+            "nodeLabel": "National Institute on Alcohol Abuse and Alcoholism",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 4872,
+                    "bottom": 5040,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 168
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "More specific information about the health effects of alcohol and commonly used…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 4970,
+              "bottom": 4989,
+              "left": 120,
+              "right": 254,
+              "width": 134,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.niaaa.nih.gov/\" target=\"_blank\">",
+            "nodeLabel": "www.niaaa.nih.gov",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 4872,
+                    "bottom": 5040,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 168
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "More specific information about the health effects of alcohol and commonly used…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P,5,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 4970,
+              "bottom": 5013,
+              "left": 20,
+              "right": 336,
+              "width": 316,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://nida.nih.gov/\" target=\"_blank\">",
+            "nodeLabel": "National Institute on Drug Abuse",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 4872,
+                    "bottom": 5040,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 168
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "More specific information about the health effects of alcohol and commonly used…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P,7,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 5018,
+              "bottom": 5037,
+              "left": 20,
+              "right": 168,
+              "width": 148,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.drugabuse.gov.\" target=\"_blank\">",
+            "nodeLabel": "www.drugabuse.gov.",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,19,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 4872,
+                    "bottom": 5040,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 168
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "More specific information about the health effects of alcohol and commonly used…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 5179,
+              "bottom": 5198,
+              "left": 20,
+              "right": 301,
+              "width": 281,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/TitleIX/Resources\">",
+            "nodeLabel": "https://pueblocc.edu/TitleIX/Resources",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 5105,
+                    "bottom": 5297,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 192
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Referral for counseling, treatment, rehabilitation and treatment programs can b…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 5227,
+              "bottom": 5246,
+              "left": 20,
+              "right": 267,
+              "width": 247,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/Health_Clinic\">",
+            "nodeLabel": "https://pueblocc.edu/Health_Clinic",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 5105,
+                    "bottom": 5297,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 192
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Referral for counseling, treatment, rehabilitation and treatment programs can b…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,24,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 5610,
+              "bottom": 5629,
+              "left": 20,
+              "right": 75,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/TitleIX/Resources\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,24,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 5440,
+                    "bottom": 5656,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 216
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College provides crisis intervention and referral services for…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,24,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 5634,
+              "bottom": 5653,
+              "left": 20,
+              "right": 301,
+              "width": 281,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/TitleIX/Resources\">",
+            "nodeLabel": "https://pueblocc.edu/TitleIX/Resources",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,24,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 5440,
+                    "bottom": 5656,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 216
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College provides crisis intervention and referral services for…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 6308,
+              "bottom": 6327,
+              "left": 20,
+              "right": 75,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/TitleIX/Resources\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 6138,
+                    "bottom": 6354,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 216
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College provides crisis intervention and referral services for…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 6332,
+              "bottom": 6351,
+              "left": 20,
+              "right": 381,
+              "width": 361,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/TitleIX/Resources#resources\">",
+            "nodeLabel": "https://pueblocc.edu/TitleIX/Resources#resources",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 6138,
+                    "bottom": 6354,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 216
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College provides crisis intervention and referral services for…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,32,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7110,
+              "bottom": 7129,
+              "left": 20,
+              "right": 75,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://cccs.edu/policies-and-procedures/board-policies/bp-3-24-drug-free-…\" target=\"_blank\">",
+            "nodeLabel": "BP 3-24",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-24-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,32,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 6772,
+                    "bottom": 7228,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 456
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Colorado law may allow certain marijuana related activities, such as limited me…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,32,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7110,
+              "bottom": 7177,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 67
+            },
+            "snippet": "<a href=\"https://cccs.edu/policies-and-procedures/board-policies/bp-3-24-drug-free-…\">",
+            "nodeLabel": "https://cccs.edu/policies-and-procedures/board-policies/bp-3-24-drug-free-workp…",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-24-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,32,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 6772,
+                    "bottom": 7228,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 456
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Colorado law may allow certain marijuana related activities, such as limited me…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-26-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7550,
+              "bottom": 7569,
+              "left": 291,
+              "right": 382,
+              "width": 90,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.pueblocc.edu/\">",
+            "nodeLabel": "PCC website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-27-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 7476,
+                    "bottom": 7812,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 336
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "If you suspect someone of possessing, using, or selling marijuana on campus or …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-28-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7574,
+              "bottom": 7593,
+              "left": 120,
+              "right": 274,
+              "width": 154,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://pueblocc.edu/\">",
+            "nodeLabel": "https://pueblocc.edu/",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-27-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 7476,
+                    "bottom": 7812,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 336
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "If you suspect someone of possessing, using, or selling marijuana on campus or …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-29-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P,7,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7766,
+              "bottom": 7785,
+              "left": 250,
+              "right": 305,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.safe2tell.org/\" target=\"_blank\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-27-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 7476,
+                    "bottom": 7812,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 336
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "If you suspect someone of possessing, using, or selling marijuana on campus or …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-30-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P,9,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 7790,
+              "bottom": 7809,
+              "left": 42,
+              "right": 189,
+              "width": 147,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://safe2tell.org/\">",
+            "nodeLabel": "https://safe2tell.org/",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-27-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 7476,
+                    "bottom": 7812,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 336
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "If you suspect someone of possessing, using, or selling marijuana on campus or …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 21
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-31-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

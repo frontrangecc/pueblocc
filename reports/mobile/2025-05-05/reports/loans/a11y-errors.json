@@ -1,0 +1,795 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.l__header > div.paragraph > div.text-content > h3",
+            "boundingRect": {
+              "top": 556,
+              "bottom": 614,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 58
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Student Loan Repayment Services",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #5a7796, background color: #ededed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.field > div.field__item > div > div.paragraph",
+                  "boundingRect": {
+                    "top": 536,
+                    "bottom": 1107,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 571
+                  },
+                  "snippet": "<div class=\"paragraph paragraph--type--box paragraph--view-mode--interior c-box c-box-…\">",
+                  "nodeLabel": "Student Loan Repayment Services\n\nPueblo Community College partnered with ECMC S…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div > div.paragraph > div.text-content > h3",
+            "boundingRect": {
+              "top": 5109,
+              "bottom": 5138,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 29
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Student Loan Default Rate",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #5a7796, background color: #ededed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV",
+                  "selector": "div.field > div.field__item > div > div.paragraph",
+                  "boundingRect": {
+                    "top": 5089,
+                    "bottom": 5306,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 217
+                  },
+                  "snippet": "<div class=\"paragraph paragraph--type--box paragraph--view-mode--interior c-box c-box-…\">",
+                  "nodeLabel": "Student Loan Default Rate\n\nPCC’s latest official student loan default rate is 3…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.l__header > div.paragraph > div.text-content > h3",
+            "boundingRect": {
+              "top": 556,
+              "bottom": 614,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 58
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Student Loan Repayment Services",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 6810,
+              "bottom": 6811,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 929,
+              "bottom": 948,
+              "left": 133,
+              "right": 257,
+              "width": 124,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.ecmcsolutions.org/\" target=\"_blank\">",
+            "nodeLabel": "visit their website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P",
+                  "selector": "div > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 807,
+                    "bottom": 1071,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 264
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College partnered with ECMC Solutions to provide student loan …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 929,
+              "bottom": 972,
+              "left": 40,
+              "right": 340,
+              "width": 300,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://app.acuityscheduling.com/schedule/6f4929ea/appointment/32961386/ca…\" target=\"_blank\">",
+            "nodeLabel": "make an appointment",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P",
+                  "selector": "div > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 807,
+                    "bottom": 1071,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 264
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College partnered with ECMC Solutions to provide student loan …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P,5,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 1001,
+              "bottom": 1020,
+              "left": 199,
+              "right": 333,
+              "width": 135,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.ecmcsolutions.org/student-webinars\" target=\"_blank\">",
+            "nodeLabel": "free webinar series",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,P",
+                  "selector": "div > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 807,
+                    "bottom": 1071,
+                    "left": 40,
+                    "right": 372,
+                    "width": 332,
+                    "height": 264
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Pueblo Community College partnered with ECMC Solutions to provide student loan …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,2,UL,0,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 1559,
+              "bottom": 1602,
+              "left": 60,
+              "right": 363,
+              "width": 303,
+              "height": 43
+            },
+            "snippet": "<a href=\"http://studentaid.gov/\" target=\"_blank\">",
+            "nodeLabel": "Federal Student Aid",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,2,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 1533,
+                    "bottom": 1629,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 96
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "They are low-interest loans that must be repaid by the student (visit Federal S…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,5,UL,1,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 2360,
+              "bottom": 2403,
+              "left": 60,
+              "right": 390,
+              "width": 330,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://studentaid.gov/understand-aid/types/loans/subsidized-unsubsidized\" target=\"_blank\">",
+            "nodeLabel": "Time Limitation on Direct Subsidized Loans",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,5,UL,1,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 2262,
+                    "bottom": 2406,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 144
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "As of July 1, 2013, federal limitations were implemented on borrowing Direct Su…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,8,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 2635,
+              "bottom": 2654,
+              "left": 55,
+              "right": 194,
+              "width": 139,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://studentaid.gov/\" target=\"_blank\">",
+            "nodeLabel": "Federal Student Aid",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,8,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 2633,
+                    "bottom": 2681,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 48
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Visit Federal Student Aid for additional information about these loans."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,11,UL,2,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 3051,
+              "bottom": 3070,
+              "left": 216,
+              "right": 372,
+              "width": 155,
+              "height": 19
+            },
+            "snippet": "<a href=\"/Financial-Aid\">",
+            "nodeLabel": "Financial Aid Policies ",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,11,UL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 3025,
+                    "bottom": 3097,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 72
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Comply with the Satisfactory Academic Progress Policy. View Financial Aid Polic…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,13,UL,0,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 3272,
+              "bottom": 3291,
+              "left": 211,
+              "right": 266,
+              "width": 55,
+              "height": 19
+            },
+            "snippet": "<a href=\"http://www.pueblocc.edu/\">",
+            "nodeLabel": "website",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,13,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 3222,
+                    "bottom": 3318,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 96
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "To accept base Federal Direct Subsidized and/or Federal Direct Unsubsidized Loa…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,13,UL,0,LI,3,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 3296,
+              "bottom": 3315,
+              "left": 60,
+              "right": 99,
+              "width": 39,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://portal.cccs.edu/pcc\">",
+            "nodeLabel": "Login",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,13,UL,0,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 3222,
+                    "bottom": 3318,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 96
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "To accept base Federal Direct Subsidized and/or Federal Direct Unsubsidized Loa…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,16,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 4059,
+              "bottom": 4102,
+              "left": 20,
+              "right": 353,
+              "width": 333,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://studentaid.gov/understand-aid/types/loans/plus/parent\" target=\"_blank\">",
+            "nodeLabel": "Federal Student Aid",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,16,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 3937,
+                    "bottom": 4105,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 168
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "The Federal PLUS loan can be borrowed by parents of dependent undergraduate stu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,18,UL,2,LI,1,A",
+            "selector": "div.text-content > ul > li > a",
+            "boundingRect": {
+              "top": 4361,
+              "bottom": 4380,
+              "left": 95,
+              "right": 234,
+              "width": 139,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://studentaid.gov/understand-aid/types/loans/plus/parent\" target=\"_blank\">",
+            "nodeLabel": "Federal Student Aid",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-23-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,18,UL,2,LI",
+                  "selector": "div.paragraph > div.text-content > ul > li",
+                  "boundingRect": {
+                    "top": 4359,
+                    "bottom": 4407,
+                    "left": 60,
+                    "right": 392,
+                    "width": 332,
+                    "height": 48
+                  },
+                  "snippet": "<li>",
+                  "nodeLabel": "Visit Federal Student Aid for the current interest rates on PLUS loans"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 11
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-24-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

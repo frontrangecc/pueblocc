@@ -1,0 +1,593 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,5,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 3648,
+              "bottom": 3649,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-in-text-block",
+    "title": "Links rely on color to be distinguishable.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,1,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 567,
+              "bottom": 586,
+              "left": 20,
+              "right": 147,
+              "width": 127,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/mot\">",
+            "nodeLabel": "Medical Assistant",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,3,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 567,
+              "bottom": 586,
+              "left": 155,
+              "right": 210,
+              "width": 56,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/nur\">",
+            "nodeLabel": "Nursing",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,5,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 567,
+              "bottom": 586,
+              "left": 217,
+              "right": 309,
+              "width": 91,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/nua\">",
+            "nodeLabel": "Nursing Aide",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,7,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 591,
+              "bottom": 610,
+              "left": 20,
+              "right": 246,
+              "width": 226,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/ota\">",
+            "nodeLabel": "Occupational Therapy Assistant",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,9,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 591,
+              "bottom": 634,
+              "left": 20,
+              "right": 325,
+              "width": 305,
+              "height": 43
+            },
+            "snippet": "<a href=\"/programs/pht\">",
+            "nodeLabel": "Pharmacy Technician",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,11,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 615,
+              "bottom": 634,
+              "left": 104,
+              "right": 270,
+              "width": 166,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/phl\">",
+            "nodeLabel": "Phlebotomy Technician",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,13,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 615,
+              "bottom": 658,
+              "left": 20,
+              "right": 352,
+              "width": 332,
+              "height": 43
+            },
+            "snippet": "<a href=\"/programs/rte\">",
+            "nodeLabel": "Radiologic Technology",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,15,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 639,
+              "bottom": 658,
+              "left": 108,
+              "right": 250,
+              "width": 141,
+              "height": 19
+            },
+            "snippet": "<a href=\"/programs/rca\">",
+            "nodeLabel": "Respiratory Therapy",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,17,A",
+            "selector": "div.paragraph > div.text-content > p > a",
+            "boundingRect": {
+              "top": 639,
+              "bottom": 682,
+              "left": 20,
+              "right": 342,
+              "width": 322,
+              "height": 43
+            },
+            "snippet": "<a href=\"/programs/ste\">",
+            "nodeLabel": "Surgical Technology",
+            "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #892034, surrounding text: #363136)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-P",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+                  "selector": "div.field__item > div.paragraph > div.text-content > p",
+                  "boundingRect": {
+                    "top": 493,
+                    "bottom": 733,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 240
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Located in the East Tower of Pueblo’s historic St. Mary-Corwin Hospital, the Nu…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2a",
+          "wcag141",
+          "TTv5",
+          "TT13.a",
+          "EN-301-549",
+          "EN-9.1.4.1"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV",
+            "selector": "div.field > div.field__item > div > div.c-card",
+            "boundingRect": {
+              "top": 2075,
+              "bottom": 2536,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 461
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\nPCC celebrates grand opening of Teaching and Learning Center\nPUEBLO –…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

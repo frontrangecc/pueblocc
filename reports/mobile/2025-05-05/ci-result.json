@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.77,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/About/HR/Complaints_and_Grievances",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Accepted",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/accessibility-statement",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/accreditation",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Accuplacer",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Admission-Forms",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions",
+    "score": 0.76,
+    "performance": 0.57,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Admissions",
+    "score": 0.8,
+    "performance": 0.74,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/checklist",
+    "score": 0.78,
+    "performance": 0.67,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Admissions/Checklist",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/advanced-manufacturing/",
+    "score": 0.77,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/advising",
+    "score": 0.75,
+    "performance": 0.52,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Advising/Online",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply",
+    "score": 0.75,
+    "performance": 0.54,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Assessment",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/bachelor",
+    "score": 0.75,
+    "performance": 0.49,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/calendar",
+    "score": 0.8,
+    "performance": 0.67,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Calendar",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/campus-dining",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/career-advance-CO",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/career-in-a-year",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/career-services",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/career-services/events",
+    "score": 0.76,
+    "performance": 0.57,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/careers",
+    "score": 0.76,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChildCare",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChildhoodCouncil",
+    "score": 0.76,
+    "performance": 0.54,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChildhoodProfessionals",
+    "score": 0.76,
+    "performance": 0.55,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChildrenFirst",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChildrenFirst/Helpful-Links",
+    "score": 0.77,
+    "performance": 0.6,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ChoosePCC",
+    "score": 0.74,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/cof",
+    "score": 0.77,
+    "performance": 0.57,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Concerns",
+    "score": 0.75,
+    "performance": 0.51,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/cora",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Corporate-Training",
+    "score": 0.76,
+    "performance": 0.53,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/COStateFinancialAid",
+    "score": 0.76,
+    "performance": 0.56,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/CPR",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Crime-Log",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/destination27",
+    "score": 0.82,
+    "performance": 0.77,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Disability-Resources",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Drug-Alcohol-Policies",
+    "score": 0.77,
+    "performance": 0.61,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Durango",
+    "score": 0.75,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Early-College/Pathways",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/EarlyCollege",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/elearning",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/eLearning/Staff",
+    "score": 0.77,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ElMovimiento",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/esports",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/esports/contests",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Event-Services",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-04-04/all-degree-career-fair",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-01/tell-truth-post-secret-programming",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-06/care-share-mobile-food-pantry",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-06/dmv2go",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-06/mobile-rage-room",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-15/commencement-pueblofremont",
+    "score": 0.76,
+    "performance": 0.51,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-17/commencement-pcc-southwest",
+    "score": 0.82,
+    "performance": 0.77,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-17/end-spring-semester",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-26/memorial-day-closed",
+    "score": 0.8,
+    "performance": 0.67,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-05-27/summer-term-begins",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-06-19/juneteenth-holiday",
+    "score": 0.77,
+    "performance": 0.55,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-07-04/independence-day-closed",
+    "score": 0.81,
+    "performance": 0.72,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/2025-08-18/fall-semester-begins",
+    "score": 0.73,
+    "performance": 0.41,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/events/last-minute-librarian-0",
+    "score": 0.76,
+    "performance": 0.54,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/fa/cpos",
+    "score": 0.82,
+    "performance": 0.81,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/FERPA",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Financial-Aid",
+    "score": 0.75,
+    "performance": 0.54,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Financial-Aid/Apply",
+    "score": 0.78,
+    "performance": 0.73,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Financial-Aid/Financing-Plan",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Financial-Aid/Forms",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Financial-Aid/Grants",
+    "score": 0.77,
+    "performance": 0.53,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/flex",
+    "score": 0.76,
+    "performance": 0.61,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/fremont",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Fremont",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/fremont-campus/fremont-couple-takes-college-together-february-24-2025",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/fremont-campus/renovated-disc-golf-course-reopens-pccs-fremont-campus-may-01-2025",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/fremont/golf",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Fremont/golf",
+    "score": 0.79,
+    "performance": 0.69,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Fremont/Senior-Mini-College",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/gateway-to-college",
+    "score": 0.74,
+    "performance": 0.57,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/gateway/testimonials",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.91,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/ged",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/GED-Testing",
+    "score": 0.75,
+    "performance": 0.52,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/graduation",
+    "score": 0.75,
+    "performance": 0.52,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/health-careers/",
+    "score": 0.76,
+    "performance": 0.69,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/home/nondiscrimination-title-ix/confidential-resources",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/home/nondiscrimination-title-ix/supportive-measures",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/hr",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/HR",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/HR/staff",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/HR/Title-IX/Definitions",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/HR/Title-IX/Risk-Reduction-Tips",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Impact",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/IR",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/KidsCollege",
+    "score": 0.75,
+    "performance": 0.54,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Legal/Legal-Disclaimers",
+    "score": 0.74,
+    "performance": 0.44,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/LicensedProvider",
+    "score": 0.77,
+    "performance": 0.61,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/loans",
+    "score": 0.77,
+    "performance": 0.63,
+    "accessibility": 0.83,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/locations",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Lost-and-Found",
+    "score": 0.77,
+    "performance": 0.55,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Mancos",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/mission",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Mobile-Learning-Labs",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/NetPriceCalculator/index.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.96,
+    "seo": 0.91
+  },
+  {
+    "path": "/news",
+    "score": 0.78,
+    "performance": 0.71,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/node/3067",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/node/3193",
+    "score": 0.77,
+    "performance": 0.6,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/nso",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/nss",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Online-Classes",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/online-learning/tips-success",
+    "score": 0.77,
+    "performance": 0.57,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/outreach/pcc-gateway-college-program-receives-national-recognition-april-07-2022",
+    "score": 0.72,
+    "performance": 0.36,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/outreach/tsc-pcc-and-emergent-campus-receive-575-million-grant-strengthen-career-pathways-advanced",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Panther-Student-Pantry",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pathways",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Paying",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/payment-options",
+    "score": 0.75,
+    "performance": 0.54,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Payment-Options",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pcc-community/conference-event-services/audio-visual-services",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pcc-community/conference-event-services/catering-services",
+    "score": 0.77,
+    "performance": 0.55,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pcc-community/conference-event-services/facilities",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/PCC-Promise",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/President",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/prior-learning-assessment",
+    "score": 0.75,
+    "performance": 0.53,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/privacy-policy",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Professional-Development",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Professional-Licensure/",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs",
+    "score": 0.79,
+    "performance": 0.68,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs?field_award_type_target_id=All&field_campus_location_target_id=84&pathway=All&location=851",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/apprenticeship",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/bus",
+    "score": 0.75,
+    "performance": 0.48,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/construction-technology",
+    "score": 0.72,
+    "performance": 0.36,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/cse",
+    "score": 0.74,
+    "performance": 0.52,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Programs/CSE",
+    "score": 0.74,
+    "performance": 0.5,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/programs/edu",
+    "score": 0.73,
+    "performance": 0.42,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/fst",
+    "score": 0.73,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/programs/HIT",
+    "score": 0.69,
+    "performance": 0.33,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/programs/lea",
+    "score": 0.75,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/programs/nur/bsn",
+    "score": 0.7,
+    "performance": 0.39,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Programs/Paramedic",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/public-safety",
+    "score": 0.77,
+    "performance": 0.6,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Pueblo",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/1995-pcc-students-named-fall-2024-honors-lists-april-09-2025",
+    "score": 0.76,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/albanie-cordova-december-15-2023",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/colorado-high-school-students-learning-skilled-trades-arrive-pueblo-state-competition",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/duane-lau-november-18-2024",
+    "score": 0.77,
+    "performance": 0.63,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/pueblo-campus/mike-white-january-18-2022",
+    "score": 0.77,
+    "performance": 0.62,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/pcc-student-wins-inaugural-rollie-heath-award-april-11-2025",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblo-campus/pcc-students-and-employees-recognized-statewide-event-april-14-2025",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/pueblocorporatecollege",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/quality-highlights",
+    "score": 0.76,
+    "performance": 0.55,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Reporting-Crimes",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/request-info",
+    "score": 0.76,
+    "performance": 0.62,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Residency",
+    "score": 0.79,
+    "performance": 0.7,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/rte-scholarship",
+    "score": 0.75,
+    "performance": 0.51,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/safety",
+    "score": 0.81,
+    "performance": 0.76,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Safety-Tips",
+    "score": 0.77,
+    "performance": 0.57,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/scholarships",
+    "score": 0.77,
+    "performance": 0.55,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Southwest",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/southwest/duston-russell-august-12-2021",
+    "score": 0.77,
+    "performance": 0.61,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/spotlights",
+    "score": 0.78,
+    "performance": 0.69,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/STEM",
+    "score": 0.78,
+    "performance": 0.7,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/STEM-Center",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/STEM-Club",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/STEM/Southwest",
+    "score": 0.76,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/STEM/staff",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Steps-to-Online-Classes",
+    "score": 0.75,
+    "performance": 0.53,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Student_Handbook",
+    "score": 0.77,
+    "performance": 0.62,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/student-life",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/support-success",
+    "score": 0.76,
+    "performance": 0.55,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/support-success/career-services/employer-hub",
+    "score": 0.79,
+    "performance": 0.71,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/support-success/stem-center/applications-forms",
+    "score": 0.77,
+    "performance": 0.57,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/support-success/stem-center/tutoring",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Testing-Center",
+    "score": 0.76,
+    "performance": 0.58,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Testing-Center/Accepted-ID",
+    "score": 0.72,
+    "performance": 0.38,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Testing-Center/Fees",
+    "score": 0.74,
+    "performance": 0.49,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Testing-Center/Locations",
+    "score": 0.79,
+    "performance": 0.7,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Testing-Center/Prohibited-Items",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Title-IX",
+    "score": 0.77,
+    "performance": 0.61,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Title-IX/Complaint-Procedures",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Title-IX/Coordinator",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Title-IX/FAQs",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/TitleIX/Resources",
+    "score": 0.82,
+    "performance": 0.74,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/TLC",
+    "score": 0.76,
+    "performance": 0.62,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/tours",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Transcripts",
+    "score": 0.79,
+    "performance": 0.68,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/transfer",
+    "score": 0.76,
+    "performance": 0.62,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Transfer-Degrees",
+    "score": 0.74,
+    "performance": 0.56,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/tuition",
+    "score": 0.69,
+    "performance": 0.27,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Tuition",
+    "score": 0.74,
+    "performance": 0.49,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Tuition-Credit-Requests",
+    "score": 0.74,
+    "performance": 0.5,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Tutoring",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/veterans",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Veterans",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Veterans/Forms",
+    "score": 0.81,
+    "performance": 0.72,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/wellness",
+    "score": 0.76,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/Work-Study",
+    "score": 0.76,
+    "performance": 0.56,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/Workforce-Grants",
+    "score": 0.76,
+    "performance": 0.55,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  }
+]

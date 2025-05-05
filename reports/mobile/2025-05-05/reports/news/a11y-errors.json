@@ -1,0 +1,350 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,7,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 5875,
+              "bottom": 5876,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": -941,
+              "bottom": -922,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-UL",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,NAV,1,UL",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > nav.pager > ul.pager__items",
+            "boundingRect": {
+              "top": 2998,
+              "bottom": 3050,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 52
+            },
+            "snippet": "<ul class=\"pager__items js-pager__items\">",
+            "nodeLabel": "Current page\n1\nPage\n2\nPage\n3\nPage\n4\nPage\n5\n…\nNext page\nNext ›\nLast page\nLast »",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: [role=presentation]"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-LI",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,NAV,1,UL,5,LI",
+                  "selector": "div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > nav.pager > ul.pager__items > li.pager__item",
+                  "boundingRect": {
+                    "top": 2998,
+                    "bottom": 3050,
+                    "left": 254,
+                    "right": 304,
+                    "width": 51,
+                    "height": 52
+                  },
+                  "snippet": "<li class=\"pager__item pager__item--ellipsis\" role=\"presentation\">",
+                  "nodeLabel": "…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 433,
+              "bottom": 922,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 490
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\nRenovated disc golf course reopens on PCC’s Fremont campus\nCAÑON CITY…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 952,
+              "bottom": 1437,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 485
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\nPCC students and employees recognized at statewide event\nSome of Pueb…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 1467,
+              "bottom": 1928,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 461
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\nPCC student wins inaugural Rollie Heath Award\nPCC student wins inaugu…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 1958,
+              "bottom": 2418,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 461
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\n1,995 PCC students named to fall 2024 honors lists\nNearly 2,000 Puebl…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-367182733325d2601b83756095263f0d3d3a412efbe8a328eea39c23d10485a5 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 2448,
+              "bottom": 2938,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 490
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"Read More about <span>",
+            "nodeLabel": "Read More\nColorado High School Students Learning Skilled Trades Arrive in Puebl…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV",
+            "selector": "div.field > div.field__item > div > div.paragraph",
+            "boundingRect": {
+              "top": 3951,
+              "bottom": 4519,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 568
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"paragraph paragraph--type--card paragraph--view-mode--sidebar c-card js-in…\" aria-label=\"Student Spotlights about Alejandra Hernandez\" data-once=\"innerClickBehavior\">",
+            "nodeLabel": "Student Spotlights\nAlejandra Hernandez\n\nIt’s not an easy transition to go from …",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

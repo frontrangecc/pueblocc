@@ -1,0 +1,381 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.paragraph > div.text-content > div.message-box > h4",
+            "boundingRect": {
+              "top": 4603,
+              "bottom": 4623,
+              "left": 90,
+              "right": 371,
+              "width": 281,
+              "height": 20
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Marijuana Policy",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-IMG",
+            "path": "1,HTML,1,BODY,5,IMG",
+            "selector": "body.path-node > img",
+            "boundingRect": {
+              "top": 9131,
+              "bottom": 9132,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.path-node > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,0,A",
+            "selector": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 54,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a aria-label=\"\" href=\"/\" rel=\"home\" class=\"logo\" aria-hidden=\"false\">",
+            "nodeLabel": "div.layout-container > header.c-header > div.c-header__logo > a.logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 6033,
+              "bottom": 6224,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Sci Structure Academy\nAward/Program Credits\n0\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 6254,
+              "bottom": 6444,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Sci: Prevention/Edu\nAward/Program Credits\n14\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 6474,
+              "bottom": 6665,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Sci: Struct Investigator\nAward/Program Credits\n9\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 6695,
+              "bottom": 6886,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Sci: Vehicl Extraction\nAward/Program Credits\n3\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 6916,
+              "bottom": 7107,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Science Technology AAS\nAward/Program Credits\n66\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 7137,
+              "bottom": 7327,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Science: Basic\nAward/Program Credits\n9\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 7357,
+              "bottom": 7548,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Science: Fire Fighter I\nAward/Program Credits\n12\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,7,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 7578,
+              "bottom": 7769,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 191
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Fire Science: Officer I\nAward/Program Credits\n12\nVIEW PROGRAM REQUIREMENTS",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,MAIN,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,DIV",
+            "selector": "div.views-element-container > div.js-view-dom-id-62d3ba3fd51153942d7625a14b3ba10bfa659572dbf07daa5ec15f28c7bc2d10 > div.l--card-grid > div.c-card",
+            "boundingRect": {
+              "top": 7799,
+              "bottom": 8018,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 220
+            },
+            "snippet": "<div role=\"link\" tabindex=\"0\" class=\"c-card js-inner-click\" aria-label=\"View Program Requirements about <span>",
+            "nodeLabel": "Firefighter Academy Structural Mini-Certificate\nAward/Program Credits\n16\nVIEW P…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]
